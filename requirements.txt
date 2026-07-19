@@ -1,5 +1,5 @@
 torch
-pandas
+pandas==2.3.1
 numpy
 scikit-learn
 
@@ -8,3 +8,4 @@ pytest-cov
 
 black
 ruff
+requests==2.28.0
