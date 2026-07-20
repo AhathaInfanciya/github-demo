@@ -1,7 +1,7 @@
-def demo():
-    user_input = input()
-    eval(user_input)
+# demo_codeql.py
 
+import subprocess
 
-if __name__ == "__main__":
-    demo()
+user_input = input("Enter command: ")
+
+subprocess.run(user_input, shell=True)
