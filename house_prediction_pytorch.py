@@ -16,6 +16,7 @@ CITY_MAPPING = {
 def load_data(file_path="house_data_1500.csv"):
     return pd.read_csv(file_path)
 
+
 def encode_city(df):
     df = df.copy()
     df["city_tier"] = df["city"].map(CITY_MAPPING)
