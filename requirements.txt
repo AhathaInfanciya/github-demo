@@ -1,5 +1,5 @@
 torch
-pandas==2.3.1
+pandas==3.0.6
 numpy
 scikit-learn
 
